@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="_Images/favicon.ico"/>
+    <script></script>
+    <title>Calculadora :D</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora :D</h1>
+    </header>
+    <section>
+        <div id="areaOperacao">
+            <label id="num1text">Insira um Número:</label>
+            <label id="num2text">Insira outro Número: </label>
+            <br>
+            <input id="n1" maxlength="6" type="text"> 
+            <input id="n2" maxlength="6" type="text">
+            <br>
+            <br>
+            <label>Adição: <input type="radio" name="conta" id="adição"></label>
+            <label>Subtração: <input type="radio" name="conta" id="subtração"></label>
+            <label>Multiplicação:<input type="radio" name="conta" id="multiplicação"></label>
+            <label>Divisão: <input type="radio" name="conta" id="divisão"></label>
+            <button id="butaum" onclick="solucao()">Calcular</button>
+            <div id="localResposta">
+                    <p id="resposta">A resposta aparecerá aqui c:</p>
+            </div>
+            <h4>Observações</h4>
+            <ul>
+                <li>O máximo de caracteres que sua operação pode ter é 6.</li>
+                <li>Use "." ao invés de "," ao lidar com decimais.</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <strong><p>&copy; Daniel Ferreira</p></strong>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
