@@ -36,7 +36,7 @@ function solucao(n1, n2, ) {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta} `
         }  
     } else {
-        alert("Sabe usar número não, é? >:C")
+        alert("Tu não colocou a operação, anta!")
     }
 }
 
