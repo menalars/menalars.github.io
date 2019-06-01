@@ -7,7 +7,7 @@ function solucao(n1, n2, ) {
         var n2 = Number(document.getElementById('n2').value)
         var resposta = n1 + n2;
         if (isNaN(resposta)){
-            alert("Sabe usar número não, é? >:C")
+            alert("Ou tu não selecionou a operação, ou não colocou um número, anta! >:C")
         } else {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta} `
         }    
@@ -15,7 +15,7 @@ function solucao(n1, n2, ) {
         var n1 = Number(document.getElementById('n1').value)
         var n2 = Number(document.getElementById('n2').value)
         var resposta = n1 - n2;if (isNaN(resposta)){
-            alert("Sabe usar número não, é? >:C")
+            alert("Ou tu não selecionou a operação, ou não colocou um número, anta! >:C")
         } else {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta} `
         }  
@@ -23,7 +23,7 @@ function solucao(n1, n2, ) {
         var n1 = Number(document.getElementById('n1').value)
         var n2 = Number(document.getElementById('n2').value)
         var resposta = n1 * n2;if (isNaN(resposta)){
-            alert("Sabe usar número não, é? >:C")
+            alert("Ou tu não selecionou a operação, ou não colocou um número, anta! >:C")
         } else {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta} `
         }  
@@ -31,12 +31,10 @@ function solucao(n1, n2, ) {
         var n1 = Number(document.getElementById('n1').value)
         var n2 = Number(document.getElementById('n2').value)
         var resposta = n1 / n2;if (isNaN(resposta)){
-            alert("Sabe usar número não, é? >:C")
+            alert("Ou tu não selecionou a operação, ou não colocou um número, anta! >:C")
         } else {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta} `
         }  
-    } else {
-        alert("Tu não colocou a operação, anta!")
     }
 }
 
