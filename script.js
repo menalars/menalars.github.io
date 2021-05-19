@@ -4,7 +4,7 @@ function solucao(n1, n2) {
         var n2 = Number(document.getElementById('n2').value)
         var resposta = n1 + n2
         if (isNaN(resposta)){
-            alert("A resposta não é um número ;-;")
+            alert("A resposta não é um número ඞ")
         } else {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta}.`
         }    
@@ -13,7 +13,7 @@ function solucao(n1, n2) {
         var n2 = Number(document.getElementById('n2').value)
         var resposta = n1 - n2
         if (isNaN(resposta)){
-            alert("A resposta não é um número ;-;")
+            alert("A resposta não é um número ඞ")
         } else {
             document.getElementById('resposta').innerHTML = `O resultado da operação é ${resposta}.`
         }  
